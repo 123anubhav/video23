@@ -138,11 +138,11 @@ Your browser does not support the video tag.
 	requestAnimationFrame(scrollVideo);
     document.addEventListener("touchmove", function(event) {
         if (event.touches[0].clientY > window.innerHeight / 2) {
-         // video.playbackRate += 0.25;   // Orignal
-          video.playbackRate += 2;
-        // } else {  
-        //  // video.playbackRate -= 0.25;  // Original
-        //   video.playbackRate -= 2;
+          video.playbackRate += 0.25;   // Orignal
+          video.playbackRate += 9;
+        } else {  
+         // video.playbackRate -= 0.25;  // Original
+          video.playbackRate -= 9;
         }
       });
 }
